@@ -2,12 +2,16 @@
     margin:0;
     padding:0;
 }
-body{
-    background-image:url('https://image.slidesdocs.com/responsive-images/background/book-illustrated-through-3d-rendering-powerpoint-background_40f327148d__960_540.jpg');
+
+body {
+    background-image: url('https://image.slidesdocs.com/responsive-images/background/book-illustrated-through-3d-rendering-powerpoint-background_40f327148d__960_540.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    z-index:1;
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
+    z-index: 1;
 }
+
 .nav{
     display: flex;
     justify-content: center;

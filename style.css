@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image:url('https://image.slidesdocs.com/responsive-images/background/book-illustrated-through-3d-rendering-powerpoint-background_40f327148d__960_540.jpg');
+    background-size: cover;
+    z-index:1;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#066464;
+    color:white;
+    font-size:28px;
+    height:90px;
+    z-index:0;
+    
+}
+.container{
+    width:500px;
+    padding:22px;
+    background-color:#fff;
+    box-shadow:1px 3px 3px 3px rgb(215,215,215);
+    border-radius:6px;
+    margin:0 auto;
+    margin-top:9rem; 
+}
+.searchBar{
+    display:flex;
+    gap:5px;
+}
+.container input{
+    width:80%;
+    padding:12px;
+    height:15px;
+    border:none;
+    outline:none;
+    background-color:#e1e1e1;
+    font-size:18px;
+    border-radius:4px;
+
+}
+.searchBar button{
+    width:80px;
+    background-color:orange;
+    color:white;
+    font-size:16px;
+    border-radius:4px;
+    border:none;
+
+}
+.text{
+    padding:22px;
+    margin-top:22px;
+}
+.text p {
+    margin-top:18px;
+} 
+.text a{
+  padding:6px 20px;
+  background-color:orange;
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+  position:relative;
+  top:16px;
+}
+
+@media(max-width:600px){
+    .container{
+         width:80%; 
+        
+    }
+}
+button:hover{
+    background-color: blueviolet;
+}
+button:active{
+    background-color: chartreuse;
+}
+a:hover{
+    background-color: blueviolet; 
+}
+a:active{
+    background-color: chartreuse;
+}
